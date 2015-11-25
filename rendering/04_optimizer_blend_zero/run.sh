@@ -10,6 +10,6 @@ cmp -s task_list.log blank/task_list.log
 let "error|=$?"
 
 cmp -s optimized_task_list.log blank/optimized_task_list.log
-#let "error|=$?"
+let "error|=$?"
  
 exit $error
