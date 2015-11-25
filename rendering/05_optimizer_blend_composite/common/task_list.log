@@ -1,0 +1,7 @@
+----input-list-----------------------------
+TaskBlendE source (-3,245189, 3,245189)-(3,245189, -3,245189) target (0, 0)-(128, 128) surface SurfaceSWE (128x128) id 1
+  TaskBlendE
+    6TaskSurfaceEmptyE
+    1TaskContourE
+  1TaskContourE
+-------------------------------------------

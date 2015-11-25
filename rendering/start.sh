@@ -44,7 +44,11 @@ tests() {
 	test $1 01_simple
 	test $1 02_compisite_layers
 	test $1 03_compisite_group
+	test $1 04_optimizer_blend_zero
+	test $1 05_optimizer_blend_composite
 }
 
 tests software
 tests gl
+
+echo "done."
