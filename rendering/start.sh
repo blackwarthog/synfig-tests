@@ -46,6 +46,7 @@ tests() {
 	test $1 03_compisite_group
 	test $1 04_optimizer_blend_zero
 	test $1 05_optimizer_blend_composite
+	test $1 06_optimizer_blend_split
 }
 
 tests software
