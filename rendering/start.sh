@@ -47,9 +47,10 @@ tests() {
 	test $1 04_optimizer_blend_zero
 	test $1 05_optimizer_blend_composite
 	test $1 06_optimizer_blend_split
+	test $1 07_optimizer_blend_composite_advanced
 }
 
 tests software
-tests gl
+#tests gl
 
 echo "done."
