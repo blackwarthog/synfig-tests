@@ -16,8 +16,9 @@ test() {
 
 	rm -r -f $test_results_path
 	mkdir -p $test_blank_path
-	cp $test_script_path/* $test_results_path &>/dev/null 
-	cp $test_script_path/common/* $test_blank_path &>/dev/null
+	cp $script_path/common/*       $test_results_path &>/dev/null 
+	cp $test_script_path/*         $test_results_path &>/dev/null 
+	cp $test_script_path/common/*  $test_blank_path &>/dev/null
 	cp $test_script_path/$engine/* $test_blank_path &>/dev/null
 	cd $test_results_path
 	
@@ -48,9 +49,11 @@ tests() {
 	test $1 05_optimizer_blend_composite
 	test $1 06_optimizer_blend_split
 	test $1 07_optimizer_blend_composite_advanced
+	test $1 08_blend_methods
 }
 
 tests software
 #tests gl
+tests safe
 
 echo "done."
