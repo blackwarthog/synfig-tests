@@ -1,0 +1,9 @@
+ composite      | stright        | onto            | stright onto    | behind
+----------------+----------------+-----------------+-----------------+-----------------
+ screen         | overlay        | hardlight       | multiply        | divide
+----------------+----------------+-----------------+-----------------+-----------------
+ sum	        | subtract       | difference      | brighten        | darken
+----------------+----------------+-----------------+-----------------+-----------------
+ color	        | hue            | saturation      | luminance       | alpha over
+----------------+----------------+-----------------+-----------------+-----------------
+ alpha brighten | alpha darken   |                 |                 |
