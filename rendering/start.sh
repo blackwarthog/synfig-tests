@@ -50,6 +50,7 @@ tests() {
 	test $1 06_optimizer_blend_split
 	test $1 07_optimizer_blend_composite_advanced
 	test $1 08_blend_methods
+	test $1 09_snowman
 }
 
 tests software
