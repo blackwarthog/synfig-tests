@@ -51,6 +51,9 @@ tests() {
 	test $1 07_optimizer_blend_composite_advanced
 	test $1 08_blend_methods
 	test $1 09_snowman
+	test $1 10_raper
+	test $1 11_raper_without_shadows
+	test $1 12_raper_x8
 }
 
 tests software
