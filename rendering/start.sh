@@ -54,6 +54,7 @@ tests() {
 	test $1 10_raper
 	test $1 11_raper_without_shadows
 	test $1 12_raper_x8
+	test $1 13_translate_rotate_scale
 }
 
 tests software
