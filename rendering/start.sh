@@ -43,18 +43,20 @@ test() {
 
 tests() {
 	test $1 01_simple
-	test $1 02_compisite_layers
-	test $1 03_compisite_group
+	test $1 02_composite_layers
+	test $1 03_composite_group
 	test $1 04_optimizer_blend_zero
 	test $1 05_optimizer_blend_composite
 	test $1 06_optimizer_blend_split
 	test $1 07_optimizer_blend_composite_advanced
 	test $1 08_blend_methods
 	test $1 09_snowman
-	test $1 10_raper
-	test $1 11_raper_without_shadows
-	test $1 12_raper_x8
+	test $1 10_rapper
+	test $1 11_rapper_without_shadows
+	test $1 12_rapper_x8
 	test $1 13_translate_rotate_scale
+	test $1 14_images
+	test $1 15_images_heavy
 }
 
 tests software

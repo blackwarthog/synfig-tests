@@ -1,0 +1,27 @@
+----input-list-----------------------------
+TaskBlendE source (-3,245189, 3,245189)-(3,245189, -3,245189) target (0, 0)-(256, 256) surface SurfaceSWE (256x256) id 9
+  TaskBlendE
+    TaskBlendE
+      TaskBlendE
+        6TaskSurfaceEmptyE
+        8TaskTransformationE
+          TaskBlendE
+            6TaskSurfaceEmptyE
+            9TaskSurfaceResampleE
+              1TaskSurfaceE source (-0,445952, 0,597381)-(1,717819, -1,174211) target (0, 0)-(4, 4) surface SurfaceSWE (4x4) id 1
+      8TaskTransformationE
+        TaskBlendE
+          6TaskSurfaceEmptyE
+          9TaskSurfaceResampleE
+            1TaskSurfaceE source (-1,500000, 0,216667)-(1,476755, -1,833732) target (0, 0)-(4, 4) surface SurfaceSWE (4x4) id 3
+    8TaskTransformationE
+      TaskBlendE
+        6TaskSurfaceEmptyE
+        9TaskSurfaceResampleE
+          1TaskSurfaceE source (-1,500000, 0,216667)-(1,476755, -1,833732) target (0, 0)-(4, 4) surface SurfaceSWE (4x4) id 5
+  8TaskTransformationE
+    TaskBlendE
+      6TaskSurfaceEmptyE
+      9TaskSurfaceResampleE
+        1TaskSurfaceE source (-1,500000, 0,216667)-(1,476755, -1,833732) target (0, 0)-(4, 4) surface SurfaceSWE (4x4) id 7
+-------------------------------------------
