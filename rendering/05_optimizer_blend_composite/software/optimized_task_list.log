@@ -1,5 +1,4 @@
 ----optimized-list-------------------------
-#1 (2 3) 7TaskSurfaceCreateE source (-3,245189, 3,245189)-(3,245189, -3,245189) target (0, 0)-(128, 128) surface SurfaceSWE (128x128) id 1
-#2 1 (3) 3TaskContourSWE bounds (-1,568964, -2,179104)-(1,425112, 0,485357) source (-1,571888, 0,507061)-(1,470476, -2,180361) target (33, 54)-(93, 107) surface SurfaceSWE (128x128) id 1
-#3 2 3TaskContourSWE bounds (-1,166329, -0,252343)-(1,718450, 2,287597) source (-1,216946, 2,332480)-(1,724007, -0,253530) target (40, 18)-(98, 69) surface SurfaceSWE (128x128) id 1
+#1 (2) 3TaskContourSWE bounds (-1,568964, -2,179104)-(1,425112, 0,485357) source (-1,571888, 0,507061)-(1,470476, -2,180361) target (33, 54)-(93, 107) surface SurfaceSWE (128x128) id 1
+#2 1 3TaskContourSWE bounds (-1,166329, -0,252343)-(1,718450, 2,287597) source (-1,216946, 2,332480)-(1,724007, -0,253530) target (40, 18)-(98, 69) surface SurfaceSWE (128x128) id 1
 -------------------------------------------
