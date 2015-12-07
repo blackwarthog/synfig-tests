@@ -57,6 +57,7 @@ tests() {
 	test $1 13_translate_rotate_scale
 	test $1 14_images
 	test $1 15_images_heavy
+	test $1 16_old_layers
 }
 
 tests software

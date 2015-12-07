@@ -1,0 +1,18 @@
+----optimized-list-------------------------
+#1 (2 4) 7TaskSurfaceCreateE source (-1,485865, -1,370257)-(1,286702, 0,977872) target (0, 0)-(242, 169) surface SurfaceSWE (242x169) id 8
+#2 1 (4) 1TaskLayerSWE bounds (-inf, -inf)-(inf, inf) source (-1,485865, -1,370257)-(1,286702, 0,977872) target (0, 0)-(242, 169) surface SurfaceSWE (242x169) id 8
+#3 (4 5) 7TaskSurfaceCreateE source (-3,245189, 3,245189)-(3,245189, -3,245189) target (0, 0)-(128, 128) surface SurfaceSWE (128x128) id 7
+#4 3 (5) 1TaskSurfaceResampleSWE bounds (-inf, -inf)-(inf, inf) source (-3,245189, 3,245189)-(3,245189, -3,245189) target (0, 0)-(128, 128) surface SurfaceSWE (128x128) id 7
+  1TaskSurfaceE bounds (-inf, -inf)-(inf, inf) source (-1,485865, -1,370257)-(1,286702, 0,977872) target (0, 0)-(242, 169) surface SurfaceSWE (242x169) id 8
+#5 2 (10) 1TaskBlendSWE bounds (-inf, -inf)-(inf, inf) source (-3,245189, 3,245189)-(3,245189, -3,245189) target (0, 0)-(128, 128) surface SurfaceSWE (128x128) id 1
+  1TaskSurfaceE
+  1TaskSurfaceE bounds (-inf, -inf)-(inf, inf) source (-3,245189, 3,245189)-(3,245189, -3,245189) target (0, 0)-(128, 128) surface SurfaceSWE (128x128) id 7
+#6 (7 9) 7TaskSurfaceCreateE source (-2,731121, -0,464065)-(4,091975, 1,049352) target (0, 0)-(239, 188) surface SurfaceSWE (239x188) id 11
+#7 1 (9) 1TaskLayerSWE bounds (-inf, -inf)-(inf, inf) source (-2,731121, -0,464065)-(4,091975, 1,049352) target (0, 0)-(239, 188) surface SurfaceSWE (239x188) id 11
+#8 (9 10) 7TaskSurfaceCreateE source (-3,245189, 3,245189)-(3,245189, -3,245189) target (0, 0)-(128, 128) surface SurfaceSWE (128x128) id 10
+#9 3 (10) 1TaskSurfaceResampleSWE bounds (-inf, -inf)-(inf, inf) source (-3,245189, 3,245189)-(3,245189, -3,245189) target (0, 0)-(128, 128) surface SurfaceSWE (128x128) id 10
+  1TaskSurfaceE bounds (-inf, -inf)-(inf, inf) source (-2,731121, -0,464065)-(4,091975, 1,049352) target (0, 0)-(239, 188) surface SurfaceSWE (239x188) id 11
+#10 3 1TaskBlendSWE bounds (-inf, -inf)-(inf, inf) source (-3,245189, 3,245189)-(3,245189, -3,245189) target (0, 0)-(128, 128) surface SurfaceSWE (128x128) id 1
+  1TaskSurfaceE bounds (-inf, -inf)-(inf, inf) source (-3,245189, 3,245189)-(3,245189, -3,245189) target (0, 0)-(128, 128) surface SurfaceSWE (128x128) id 1
+  1TaskSurfaceE bounds (-inf, -inf)-(inf, inf) source (-3,245189, 3,245189)-(3,245189, -3,245189) target (0, 0)-(128, 128) surface SurfaceSWE (128x128) id 10
+-------------------------------------------
